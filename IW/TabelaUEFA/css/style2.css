@@ -1,0 +1,175 @@
+body{
+    background-color: #333334;
+    margin: 0;
+    padding: 0%;
+}
+
+.Tudo{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Linha{
+    display: flexbox;
+}
+
+#Cabecalho{
+    background-color: #142c5c;
+    min-height: 70px;
+    min-width: 1820px;
+    padding: 30px 50px 10px 50px;  
+    position: fixed;
+    width: 100%;
+    top: 0;
+    box-shadow: 0px 0px 15px 0px #242424;
+}
+
+#TituloCabecalho{
+    color: white;
+    float: left;
+    min-width: 50%;
+    font-size: 16px;
+    text-align: left;
+    margin-top: -10px;
+}
+
+.Menu{
+    position: absolute;
+    bottom: 0;
+    width: 90%;
+    text-align: center;
+    padding-left: 21%;
+    padding-right: 21%;
+}
+
+a, a:link, a:hover, a:visited{
+    text-decoration: none;
+    color: rgb(167, 167, 167);
+}
+
+.ItemMenu{
+    float: left;
+    color: rgb(167, 167, 167);
+    text-align: center;
+    width: 10.5%;
+    height: 40px; 
+}
+
+.ItemMenu01{
+    float: left;
+    color: white;
+    text-align: center;
+    width: 10.5%;
+    height: 40px;
+} 
+
+.ItemMenu01:hover{
+    background-color: #021d50;
+    opacity: 100%;
+} 
+
+.ItemMenu:hover{
+    background-color: #021d50;
+    opacity: 100%;
+} 
+
+.ItemMenu:hover:before {
+    background-color: white;
+    opacity: 150%;
+    visibility: visible;
+}
+
+.ItemMenu01:hover:before {
+    background-color: white;
+    opacity: 150%;
+    visibility: visible;
+}
+  
+
+.risco{
+    background-color: white;
+	border-radius: 5px;
+	height: 2px;
+    margin-top: 18px;
+}
+
+.temporada{	
+    background-color: #333334;
+	width: 40%;			
+	margin: 0 auto; 
+	text-align: left;
+    height: 50px;
+    box-shadow: 0px 0px 2px 0px #242424;
+    padding: 15px 20px 5px 20px;
+    margin-top: 110px; 
+
+}
+
+.temporada01{
+    color: rgb(167, 167, 167);
+    float: left;
+    font-size: 12px;
+}
+
+.temporada02{
+    color: #4484f4;
+    float: left;
+    font-size: 16px;
+}
+
+.fase{
+    background-color: #1b1a1a;
+	width: 40%;			
+	margin: 0 auto; 
+	text-align: left;
+    height: 10px;
+    box-shadow: 0px 0px 2px 0px rgb(70, 68, 68);
+    padding: 10px 20px 15px 20px;
+    margin-top: 0px; 
+}
+
+.fase01{
+    color: rgb(167, 167, 167);
+    float: left;
+    font-size: 14px;
+}
+
+.grupos{	
+    background-color: #242424;
+	width: 42%;			
+	margin: 0 auto; 
+    box-shadow: 0px 0px 1px -1px rgb(167, 167, 167);
+    padding: 0;
+}
+
+td,th{
+    color: rgb(167, 167, 167);
+    padding: 8px;
+}
+
+#tabela{
+    background-color: #242424;
+	width: 50%;			
+	margin: 0 auto; 
+    box-shadow: 0px 0px 1px -1px rgb(167, 167, 167);
+    padding: 0;
+    float: left;
+    box-shadow: 0 0 1px 0  lightgray    ;
+
+    padding: 5px;
+}
+
+#tabela:hover{
+    background-color: black;
+    opacity: 100%;
+} 
+
+#tabela:hover:before {
+    background-color: white;
+    opacity: 150%;
+    visibility: visible;
+}
+
+#espaco{
+    width: 50%;
+}
+
