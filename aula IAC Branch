@@ -1,0 +1,45 @@
+tawan@ASUS-TAWAN:~/Área de Trabalho/Nova pasta$ git clone https://github.com/tawansilveira/Ulbra.git
+Cloning into 'Ulbra'...
+remote: Enumerating objects: 121, done.
+remote: Counting objects: 100% (121/121), done.
+remote: Compressing objects: 100% (112/112), done.
+remote: Total 121 (delta 7), reused 117 (delta 6), pack-reused 0
+Receiving objects: 100% (121/121), 17.04 MiB | 2.70 MiB/s, done.
+Resolving deltas: 100% (7/7), done.
+tawan@ASUS-TAWAN:~/Área de Trabalho/Nova pasta$ git status
+fatal: not a git repository (or any of the parent directories): .git
+tawan@ASUS-TAWAN:~/Área de Trabalho/Nova pasta$ git checkout <Develop>
+bash: erro de sintaxe próximo ao token inesperado `newline'
+tawan@ASUS-TAWAN:~/Área de Trabalho/Nova pasta$ git checkout Develop
+fatal: not a git repository (or any of the parent directories): .git
+tawan@ASUS-TAWAN:~/Área de Trabalho/Nova pasta$ ls
+Ulbra
+tawan@ASUS-TAWAN:~/Área de Trabalho/Nova pasta$ cd Ulbra
+tawan@ASUS-TAWAN:~/Área de Trabalho/Nova pasta/Ulbra$ git pull
+From https://github.com/tawansilveira/Ulbra
+ * [new branch]      Develop    -> origin/Develop
+Already up to date.
+tawan@ASUS-TAWAN:~/Área de Trabalho/Nova pasta/Ulbra$ git checkout -b Develop
+Switched to a new branch 'Develop'
+tawan@ASUS-TAWAN:~/Área de Trabalho/Nova pasta/Ulbra$ ls
+ Algoritmos   IW   README.md   TabelaUEFA  'Testes Python'
+tawan@ASUS-TAWAN:~/Área de Trabalho/Nova pasta/Ulbra$ code .
+tawan@ASUS-TAWAN:~/Área de Trabalho/Nova pasta/Ulbra$ git add .
+tawan@ASUS-TAWAN:~/Área de Trabalho/Nova pasta/Ulbra$ git commit -m "teste"
+[Develop 91cf2d0] teste
+ 1 file changed, 2 insertions(+)
+tawan@ASUS-TAWAN:~/Área de Trabalho/Nova pasta/Ulbra$     git push --set-upstream origin Develop
+Username for 'https://github.com': tawansilveira
+Password for 'https://tawansilveira@github.com': 
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 325 bytes | 325.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/tawansilveira/Ulbra.git
+   e7a4248..91cf2d0  Develop -> Develop
+branch 'Develop' set up to track 'origin/Develop'.
+
+
